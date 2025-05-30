@@ -1,0 +1,222 @@
+{
+  "Scope": [
+    {
+      "name": "Requirement Fulfillment",
+      "weight": 40,
+      "levels": [
+        {
+          "description": "The solution does not include any of the required features.",
+          "range": [
+            0,
+            0
+          ]
+        },
+        {
+          "description": "The solution includes some required features but is incomplete.",
+          "range": [
+            1,
+            20
+          ]
+        },
+        {
+          "description": "The solution includes all required features completely.",
+          "range": [
+            21,
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deliverable Completeness",
+      "weight": 30,
+      "levels": [
+        {
+          "description": "The submitted deliverables are missing or insufficient.",
+          "range": [
+            0,
+            0
+          ]
+        },
+        {
+          "description": "The submitted deliverables include parts of the expected output but not in full.",
+          "range": [
+            1,
+            15
+          ]
+        },
+        {
+          "description": "The submitted deliverables are fully complete and meet all expectations.",
+          "range": [
+            16,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deadline Compliance",
+      "weight": 30,
+      "levels": [
+        {
+          "description": "The solution was not submitted by the deadline.",
+          "range": [
+            0,
+            0
+          ]
+        },
+        {
+          "description": "The solution was submitted with delay or near the deadline with minor deviations.",
+          "range": [
+            1,
+            15
+          ]
+        },
+        {
+          "description": "The solution was submitted on time as required.",
+          "range": [
+            16,
+            30
+          ]
+        }
+      ]
+    }
+  ],
+  "Quality": [
+    {
+      "name": "Accuracy of Implementation",
+      "weight": 20,
+      "levels": [
+        {
+          "description": "The implementation contains significant errors and deviates from specifications.",
+          "range": [
+            0,
+            0
+          ]
+        },
+        {
+          "description": "The implementation shows partial accuracy with some errors present.",
+          "range": [
+            1,
+            10
+          ]
+        },
+        {
+          "description": "The implementation is fully accurate and meets the specified requirements.",
+          "range": [
+            11,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reliability and Stability",
+      "weight": 20,
+      "levels": [
+        {
+          "description": "The solution is unstable and unreliable under normal usage conditions.",
+          "range": [
+            0,
+            0
+          ]
+        },
+        {
+          "description": "The solution functions reliably in most cases but exhibits occasional issues.",
+          "range": [
+            1,
+            10
+          ]
+        },
+        {
+          "description": "The solution is fully reliable and stable under normal usage conditions.",
+          "range": [
+            11,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Usability and Clarity",
+      "weight": 20,
+      "levels": [
+        {
+          "description": "The solution lacks user-friendliness and clarity in presentation.",
+          "range": [
+            0,
+            0
+          ]
+        },
+        {
+          "description": "The solution is somewhat usable and presents information with average clarity.",
+          "range": [
+            1,
+            10
+          ]
+        },
+        {
+          "description": "The solution presents a clear, user-friendly interface and documentation.",
+          "range": [
+            11,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Error Handling and Robustness",
+      "weight": 20,
+      "levels": [
+        {
+          "description": "The solution does not handle errors or unexpected inputs.",
+          "range": [
+            0,
+            0
+          ]
+        },
+        {
+          "description": "The solution handles some errors but not all edge cases.",
+          "range": [
+            1,
+            10
+          ]
+        },
+        {
+          "description": "The solution handles errors robustly and covers all common edge cases.",
+          "range": [
+            11,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Code Efficiency and Best Practices",
+      "weight": 20,
+      "levels": [
+        {
+          "description": "The solution does not follow coding best practices and is inefficient.",
+          "range": [
+            0,
+            0
+          ]
+        },
+        {
+          "description": "The solution partially follows coding best practices and is moderately efficient.",
+          "range": [
+            1,
+            10
+          ]
+        },
+        {
+          "description": "The solution follows coding best practices thoroughly and is efficiently implemented.",
+          "range": [
+            11,
+            20
+          ]
+        }
+      ]
+    }
+  ]
+}

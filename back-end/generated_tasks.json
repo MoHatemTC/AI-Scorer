@@ -1,0 +1,67 @@
+[
+  {
+    "skill": "Linear Regression",
+    "task": "Implement Linear Regression using Python and sklearn to achieve a Mean Squared Error of less than 5",
+    "difficulty": "beginner"
+  },
+  {
+    "skill": "Decision Tree",
+    "task": "Build a Decision Tree model in R with at least 80% accuracy on a classification task",
+    "difficulty": "intermediate"
+  },
+  {
+    "skill": "Support Vector Machine",
+    "task": "Train a Support Vector Machine model in Python with an F1 score of at least 0.85",
+    "difficulty": "intermediate"
+  },
+  {
+    "skill": "K-Means Clustering Algorithm",
+    "task": "Apply K-Means Clustering in Matlab to group data points with an Adjusted Rand Index of 0.8",
+    "difficulty": "intermediate"
+  },
+  {
+    "skill": "Neural Networks",
+    "task": "Develop a Neural Network model using TensorFlow to achieve an accuracy of 95% on a classification task",
+    "difficulty": "advanced"
+  },
+  {
+    "skill": "Supervised Learning",
+    "task": "Implement a supervised learning algorithm in Python to classify handwritten digits with an accuracy of at least 90%",
+    "difficulty": "intermediate"
+  },
+  {
+    "skill": "Classification",
+    "task": "Create a classification model in R with an Area Under the Receiver Operating Characteristic Curve (AUC-ROC) of 0.9",
+    "difficulty": "intermediate"
+  },
+  {
+    "skill": "Regression",
+    "task": "Perform a regression analysis in Python using Random Forest Regressor to achieve an R-squared value above 0.7",
+    "difficulty": "intermediate"
+  },
+  {
+    "skill": "Image Classification",
+    "task": "Implement an Image Classification model in PyTorch with an accuracy of at least 85%",
+    "difficulty": "intermediate"
+  },
+  {
+    "skill": "Text Categorization",
+    "task": "Build a Text Categorization model in Python with a Precision of 0.85",
+    "difficulty": "intermediate"
+  },
+  {
+    "skill": "Unsupervised Learning",
+    "task": "Apply Unsupervised Learning in R to segment customer data with a Silhouette Score above 0.6",
+    "difficulty": "intermediate"
+  },
+  {
+    "skill": "Image Segmentation",
+    "task": "Develop an Image Segmentation algorithm in MATLAB to achieve a Mean Intersection over Union (mIoU) of 0.75",
+    "difficulty": "advanced"
+  },
+  {
+    "skill": "Feature Engineering",
+    "task": "Perform Feature Engineering in Python using Pandas to increase model performance by 10%",
+    "difficulty": "intermediate"
+  }
+]

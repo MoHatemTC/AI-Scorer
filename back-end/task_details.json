@@ -1,0 +1,132 @@
+[
+  {
+    "skill": "Linear Regression",
+    "details": {
+      "objective": "Understand how to use linear regression for predictive analysis",
+      "tools": "Python, Scikit-learn",
+      "input": "Dataset with numerical values for training",
+      "output": "Predicted numerical values",
+      "duration": "4"
+    }
+  },
+  {
+    "skill": "Decision Tree",
+    "details": {
+      "objective": "Learn how to build decision tree models for classification and regression tasks",
+      "tools": "Python, Scikit-learn",
+      "input": "Dataset with features and target variable",
+      "output": "Predicted classes or values",
+      "duration": "5"
+    }
+  },
+  {
+    "skill": "Support Vector Machine",
+    "details": {
+      "objective": "Master the concepts and implementation of Support Vector Machine algorithm",
+      "tools": "Python, Scikit-learn",
+      "input": "Dataset with features and target variable",
+      "output": "Predicted classes",
+      "duration": "6"
+    }
+  },
+  {
+    "skill": "K-Means Clustering Algorithm",
+    "details": {
+      "objective": "Learn how to group data points into clusters using the K-Means algorithm",
+      "tools": "Python, Scikit-learn",
+      "input": "Dataset with features",
+      "output": "Cluster labels for each data point",
+      "duration": "7"
+    }
+  },
+  {
+    "skill": "Neural Networks",
+    "details": {
+      "objective": "Understand the fundamentals of neural networks and their application in deep learning",
+      "tools": "Python, TensorFlow/Keras",
+      "input": "Dataset for training and testing",
+      "output": "Predicted classes or values",
+      "duration": "8"
+    }
+  },
+  {
+    "skill": "Supervised Learning",
+    "details": {
+      "objective": "To understand the concept of supervised learning and its applications.",
+      "tools": "Python, scikit-learn",
+      "input": "Sample dataset with labeled data",
+      "output": "Trained model for prediction",
+      "duration": "4"
+    }
+  },
+  {
+    "skill": "Classification",
+    "details": {
+      "objective": "To learn how to classify data into predefined categories.",
+      "tools": "Python, scikit-learn",
+      "input": "Dataset with features and corresponding labels",
+      "output": "Classification model",
+      "duration": "6"
+    }
+  },
+  {
+    "skill": "Regression",
+    "details": {
+      "objective": "To understand how to predict continuous values based on input data.",
+      "tools": "Python, scikit-learn",
+      "input": "Dataset with continuous target variable and input features",
+      "output": "Regression model",
+      "duration": "5"
+    }
+  },
+  {
+    "skill": "Image Classification",
+    "details": {
+      "objective": "To classify images into different categories.",
+      "tools": "Python, TensorFlow, Keras",
+      "input": "Image dataset with labeled images",
+      "output": "Trained image classification model",
+      "duration": "8"
+    }
+  },
+  {
+    "skill": "Text Categorization",
+    "details": {
+      "objective": "To categorize text documents into predefined classes.",
+      "tools": "Python, scikit-learn, NLTK",
+      "input": "Text dataset with labels",
+      "output": "Text categorization model",
+      "duration": "7"
+    }
+  },
+  {
+    "skill": "Unsupervised Learning",
+    "details": {
+      "objective": "Understand and implement unsupervised learning algorithms to discover patterns in data without labeled outcomes.",
+      "tools": "Python, scikit-learn",
+      "input": "Dataset with unlabeled data",
+      "output": "Clustered data points or latent representations",
+      "duration": "10"
+    }
+  },
+  {
+    "skill": "Image Segmentation",
+    "details": {
+      "objective": "Learn how to partition an image into multiple segments to simplify its representation or modify it for easier analysis.",
+      "tools": "OpenCV, Python",
+      "input": "Image data",
+      "output": "Segmented image with distinct regions",
+      "duration": "8"
+    }
+  },
+  {
+    "skill": "Feature Engineering",
+    "details": {
+      "objective": "Create new features from existing data to improve model performance and accuracy.",
+      "tools": "Python, pandas",
+      "input": "Raw dataset with variables",
+      "output": "Enhanced dataset with engineered features",
+      "duration": "12"
+    }
+  }
+]
