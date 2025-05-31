@@ -1,82 +1,109 @@
 {
   "Scope": [
     {
-      "name": "Requirement Fulfillment",
-      "weight": 40,
+      "name": "Project Scope & Stakeholder Engagement",
+      "weight": 25,
       "levels": [
         {
-          "description": "The solution does not include any of the required features.",
+          "description": "No or insufficient coverage: The solution does not include a clear event scope, user stories, stakeholder list, or communication plan.",
           "range": [
             0,
             0
           ]
         },
         {
-          "description": "The solution includes some required features but is incomplete.",
+          "description": "Partial coverage: The solution includes some components (e.g., event scope or partial user stories) but one or more required sections (user stories, stakeholder list, or communication plan) are missing or underdeveloped.",
           "range": [
             1,
-            20
+            12
           ]
         },
         {
-          "description": "The solution includes all required features completely.",
+          "description": "Complete coverage: The solution fully includes a detailed event scope, 5-6 well-articulated user stories, a comprehensive stakeholder list, and a clear, actionable communication plan.",
           "range": [
-            21,
-            40
+            13,
+            25
           ]
         }
       ]
     },
     {
-      "name": "Deliverable Completeness",
-      "weight": 30,
+      "name": "Work Breakdown Structure (WBS) & Backlog",
+      "weight": 25,
       "levels": [
         {
-          "description": "The submitted deliverables are missing or insufficient.",
+          "description": "No or insufficient breakdown: The solution lacks a clear breakdown into major tasks, sub-tasks, or fails to include a backlog.",
           "range": [
             0,
             0
           ]
         },
         {
-          "description": "The submitted deliverables include parts of the expected output but not in full.",
+          "description": "Partial breakdown: The solution includes a breakdown into tasks and sub-tasks or a partial backlog, but does not fully identify 6 major tasks or provide sufficient sub-task details.",
           "range": [
             1,
-            15
+            12
           ]
         },
         {
-          "description": "The submitted deliverables are fully complete and meet all expectations.",
+          "description": "Complete breakdown: The solution clearly breaks the event into 6 major tasks with detailed sub-tasks and includes a well-prioritized backlog covering all specified elements.",
           "range": [
-            16,
-            30
+            13,
+            25
           ]
         }
       ]
     },
     {
-      "name": "Deadline Compliance",
-      "weight": 30,
+      "name": "Event Schedule & Sprint Planning",
+      "weight": 25,
       "levels": [
         {
-          "description": "The solution was not submitted by the deadline.",
+          "description": "No or insufficient schedule and plan: The solution does not include a Gantt chart/PDM for task dependencies or lacks a clear sprint planning document.",
           "range": [
             0,
             0
           ]
         },
         {
-          "description": "The solution was submitted with delay or near the deadline with minor deviations.",
+          "description": "Partial schedule and plan: The solution includes either a basic event schedule or a sprint plan but does not fully detail task dependencies, deadlines, or assignment of tasks.",
           "range": [
             1,
-            15
+            12
           ]
         },
         {
-          "description": "The solution was submitted on time as required.",
+          "description": "Complete schedule and plan: The solution provides a detailed Gantt chart or equivalent detailing task dependencies, along with a comprehensive sprint planning document that includes sprint tasks, assignments, and deadlines.",
           "range": [
-            16,
-            30
+            13,
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Event Wrap-up & Retrospective",
+      "weight": 25,
+      "levels": [
+        {
+          "description": "No or insufficient wrap-up: The solution does not address event wrap-up activities, key metric summaries, or the sprint retrospective report.",
+          "range": [
+            0,
+            0
+          ]
+        },
+        {
+          "description": "Partial wrap-up: The solution includes some details on event wrap-up or retrospective (e.g., summary of event metrics or incomplete retrospective analysis) but is missing complete information on all required aspects.",
+          "range": [
+            1,
+            12
+          ]
+        },
+        {
+          "description": "Complete wrap-up: The solution provides a detailed event wrap-up report with key metrics (attendance, budget, vendor payments, etc.) and a thorough sprint retrospective outlining successes, challenges, and areas for improvement.",
+          "range": [
+            13,
+            25
           ]
         }
       ]
@@ -84,25 +111,79 @@
   ],
   "Quality": [
     {
-      "name": "Accuracy of Implementation",
-      "weight": 20,
+      "name": "Requirements Compliance",
+      "weight": 30,
       "levels": [
         {
-          "description": "The implementation contains significant errors and deviates from specifications.",
+          "description": "Non-compliant: The solution fails to address the majority of the specified requirements.",
           "range": [
             0,
             0
           ]
         },
         {
-          "description": "The implementation shows partial accuracy with some errors present.",
+          "description": "Partially compliant: The solution addresses several requirements but omits significant elements or does not fully meet the specified criteria.",
+          "range": [
+            1,
+            15
+          ]
+        },
+        {
+          "description": "Fully compliant: The solution meets and addresses all specified requirements and deliverable formats exactly as defined.",
+          "range": [
+            16,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Accuracy and Completeness",
+      "weight": 25,
+      "levels": [
+        {
+          "description": "Inaccurate or incomplete: The solution contains errors or lacks important details necessary for accurate interpretation.",
+          "range": [
+            0,
+            0
+          ]
+        },
+        {
+          "description": "Moderately accurate and complete: The solution contains some inaccuracies or omissions but generally includes most required details.",
+          "range": [
+            1,
+            12
+          ]
+        },
+        {
+          "description": "Highly accurate and complete: The solution is free of errors and provides comprehensive details for each required deliverable.",
+          "range": [
+            13,
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Clarity and Organization",
+      "weight": 20,
+      "levels": [
+        {
+          "description": "Unclear and disorganized: The solution lacks logical flow and structure, making it difficult to follow.",
+          "range": [
+            0,
+            0
+          ]
+        },
+        {
+          "description": "Somewhat clear and organized: The solution has a basic structure but may have issues with flow or clarity in some sections.",
           "range": [
             1,
             10
           ]
         },
         {
-          "description": "The implementation is fully accurate and meets the specified requirements.",
+          "description": "Clear and well-organized: The solution is logically structured, clear, and easy to navigate with distinct sections for each requirement.",
           "range": [
             11,
             20
@@ -111,109 +192,55 @@
       ]
     },
     {
-      "name": "Reliability and Stability",
-      "weight": 20,
+      "name": "Presentation and Formatting",
+      "weight": 15,
       "levels": [
         {
-          "description": "The solution is unstable and unreliable under normal usage conditions.",
+          "description": "Poor presentation: The deliverable does not adhere to the required format and lacks professional formatting.",
           "range": [
             0,
             0
           ]
         },
         {
-          "description": "The solution functions reliably in most cases but exhibits occasional issues.",
+          "description": "Moderate presentation: The deliverable follows most formatting guidelines but lacks consistency or professional appearance.",
           "range": [
             1,
-            10
+            7
           ]
         },
         {
-          "description": "The solution is fully reliable and stable under normal usage conditions.",
+          "description": "Excellent presentation: The deliverable strictly adheres to the required format with clear, professional formatting and style.",
           "range": [
-            11,
-            20
+            8,
+            15
           ]
         }
       ]
     },
     {
-      "name": "Usability and Clarity",
-      "weight": 20,
+      "name": "Timeliness and Adherence to Format",
+      "weight": 10,
       "levels": [
         {
-          "description": "The solution lacks user-friendliness and clarity in presentation.",
+          "description": "Not submitted on time or in incorrect format: The deliverable is late or does not comply with the specified format.",
           "range": [
             0,
             0
           ]
         },
         {
-          "description": "The solution is somewhat usable and presents information with average clarity.",
+          "description": "Partially timely or format compliant: The deliverable is submitted on time but may have minor format deviations, or vice versa.",
           "range": [
             1,
+            5
+          ]
+        },
+        {
+          "description": "Fully timely and format compliant: The deliverable is submitted on time and exactly adheres to the specified document formats (docx, xlsx, png).",
+          "range": [
+            6,
             10
-          ]
-        },
-        {
-          "description": "The solution presents a clear, user-friendly interface and documentation.",
-          "range": [
-            11,
-            20
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Error Handling and Robustness",
-      "weight": 20,
-      "levels": [
-        {
-          "description": "The solution does not handle errors or unexpected inputs.",
-          "range": [
-            0,
-            0
-          ]
-        },
-        {
-          "description": "The solution handles some errors but not all edge cases.",
-          "range": [
-            1,
-            10
-          ]
-        },
-        {
-          "description": "The solution handles errors robustly and covers all common edge cases.",
-          "range": [
-            11,
-            20
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Code Efficiency and Best Practices",
-      "weight": 20,
-      "levels": [
-        {
-          "description": "The solution does not follow coding best practices and is inefficient.",
-          "range": [
-            0,
-            0
-          ]
-        },
-        {
-          "description": "The solution partially follows coding best practices and is moderately efficient.",
-          "range": [
-            1,
-            10
-          ]
-        },
-        {
-          "description": "The solution follows coding best practices thoroughly and is efficiently implemented.",
-          "range": [
-            11,
-            20
           ]
         }
       ]

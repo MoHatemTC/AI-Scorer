@@ -5,7 +5,6 @@ import os
 from dotenv import load_dotenv
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-from skill_extraction_agent import SkillExtractionAgent
 from generate_rubric_agent_2 import RubricGenerationAgent
 from AIGrader import AIGrader
 from typing import List, Optional
@@ -198,12 +197,12 @@ def evaluate_submission(grader_input: GraderInput):
                         "user_id": user.id,
                         "scope": {
                             "criteria": scope["criteria"],
-                            "overall_grade": scope["scope_score"],
-                            "overall_comment": scope["scope_comment"],
+                            "overall_grade": scope["scope_score"], 
+                            "overall_comment": scope["scope_comment"], 
                         },
                         "quality": {
-                            "criteria": quality["criteria"],
-                            "overall_grade": quality["quality_score"],
+                            "criteria": quality["criteria"], 
+                            "overall_grade": quality["quality_score"], 
                             "overall_comment": quality["quality_comment"],
                         },
                     }
@@ -246,14 +245,14 @@ def evaluate_submission(grader_input: GraderInput):
             results.append(
                 {
                     "scope": {
-                        "criteria": scope["criteria"],
-                        "overall_grade": scope["scope_score"],
-                        "overall_comment": scope["scope_comment"],
+                        "criteria": scope["criteria"], 
+                        "overall_grade": scope["scope_score"], 
+                        "overall_comment": scope["scope_comment"], 
                     },
                     "quality": {
-                        "criteria": quality["criteria"],
-                        "overall_grade": quality["quality_score"],
-                        "overall_comment": quality["quality_comment"],
+                        "criteria": quality["criteria"], 
+                        "overall_grade": quality["quality_score"], 
+                        "overall_comment": quality["quality_comment"], 
                     },
                 }
             )

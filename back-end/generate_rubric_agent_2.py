@@ -1,9 +1,14 @@
 import json
 import re
+import os
+from dotenv import load_dotenv
+
 
 from openai import OpenAI
 
-openai = OpenAI()
+load_dotenv()
+# Ensure the OpenAI API key is set in the environment
+openai = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))  
 
 
 class RubricGenerationAgent:

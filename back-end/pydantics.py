@@ -8,7 +8,7 @@ class RequirementsConfig(BaseModel):
         description="Requirements List",
         min_items=0,
         max_items=15
-    )
+    ) 
 
 
 class QualityScoringConfig(BaseModel):
@@ -22,7 +22,7 @@ class ScopeConfig(BaseModel):
         description="Deliverables List",
         min_items=0,
         max_items=15
-    )
+    ) 
 
 
 class ScopeScoringConfig(BaseModel):

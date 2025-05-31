@@ -12,8 +12,7 @@ from pydantics import (
     ScopeScoringConfig,
 )
 
-OPENAI_API_KEY = "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"
-MODEL = "o3"
+
 
 LANGFUSE_SECRET_KEY = "sk-lf-b90245cc-b297-4599-82fa-ca89aa50ddca"
 LANGFUSE_PUBLIC_KEY = "pk-lf-1406ba99-9e8e-4316-bd38-baa13a1e8020"
@@ -35,31 +34,11 @@ os.environ["OTEL_EXPORTER_OTLP_HEADERS"] = f"Authorization=Basic {LANGFUSE_AUTH}
 openlit.init()
 
 
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
+
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 client = openai.OpenAI(api_key=OPENAI_API_KEY)
-
-
-def extract_info(prompt):
-    system_prompt = (
-        "You are an information extractor. Given a sentence which is {prompt}, extract the learners scope_score, scope_comment, quality, quality_comment. "
-        'Return the result in JSON format like this: {"scope_score": ..., "scope_comment": ..., "quality_score": ..., "quality_comment": ...}'
-    )
-
-    response = client.chat.completions.create(
-        model="o3",
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": prompt},
-        ],
-        temperature=0,
-    )
-
-    result = response.choices[0].message.content
-    return result
-
-
-# Revised AIGrader class with task-related agents only
 
 
 class AIGrader:
